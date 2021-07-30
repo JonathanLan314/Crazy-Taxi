@@ -1,0 +1,2236 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.13f1 (a03098edbbe0) revision 10498200'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 16179 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2021.1.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/jonat/OneDrive/Desktop/Unity projects/The Crazy Taxi
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58493
+Successfully changed project path to: C:/Users/jonat/OneDrive/Desktop/Unity projects/The Crazy Taxi
+C:/Users/jonat/OneDrive/Desktop/Unity projects/The Crazy Taxi
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 156.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.13f1 (a03098edbbe0)
+[Subsystems] Discovering subsystems at path C:/Program Files/2021.1.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jonat/OneDrive/Desktop/Unity projects/The Crazy Taxi/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   27.21.14.6618
+Initialize mono
+Mono path[0] = 'C:/Program Files/2021.1.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2021.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2021.1.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2021.1.13f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2021.1.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002451 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 138.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.075 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2075ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009232 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.487 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1488ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1239ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (426ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (529ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (426ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3000 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.9 MB.
+System memory in use after: 126.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3516.
+Total: 3.415900 ms (FindLiveObjects: 0.323500 ms CreateObjectMapping: 0.172900 ms MarkObjects: 2.815900 ms  DeleteObjects: 0.102500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes 1/CrazyTaxi.unity
+  artifactKey: Guid(9e71d1454fdbaca468551835adadedbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/CrazyTaxi.unity using Guid(9e71d1454fdbaca468551835adadedbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc67505411c6d4110a40d79645cdf4bd') in 0.020106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.639520 seconds.
+  path: Assets/Scenes 1/MainMenu.unity
+  artifactKey: Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/MainMenu.unity using Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd655488bfe259c1d1388bf2775e9054c') in 0.008127 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011228 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1249ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1025ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (456ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.3 MB.
+System memory in use after: 125.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3518.
+Total: 2.601400 ms (FindLiveObjects: 0.324200 ms CreateObjectMapping: 0.179200 ms MarkObjects: 2.039100 ms  DeleteObjects: 0.057400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.001718 seconds.
+  path: Assets/Scenes 1/CrazyTaxi.unity
+  artifactKey: Guid(9e71d1454fdbaca468551835adadedbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/CrazyTaxi.unity using Guid(9e71d1454fdbaca468551835adadedbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f696aec67ee94d5ff57cefca6465ef85') in 0.020736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.971864 seconds.
+  path: Assets/Scenes 1/MainMenu.unity
+  artifactKey: Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/MainMenu.unity using Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e859958b971269e711bf3c85f135fd96') in 0.004264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.068145 seconds.
+  path: Assets/Scenes 1/MainMenu.unity
+  artifactKey: Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/MainMenu.unity using Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd794b0326701e8c6a35cc9cc64d4c61') in 0.005020 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008220 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1124ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (931ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (386ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.4 MB.
+System memory in use after: 125.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3520.
+Total: 2.194400 ms (FindLiveObjects: 0.267900 ms CreateObjectMapping: 0.123200 ms MarkObjects: 1.747900 ms  DeleteObjects: 0.054200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010828 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1147ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (962ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.4 MB.
+System memory in use after: 125.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3522.
+Total: 2.938000 ms (FindLiveObjects: 0.399800 ms CreateObjectMapping: 0.277000 ms MarkObjects: 2.205400 ms  DeleteObjects: 0.054600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009135 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.159 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1159ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (971ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (397ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.4 MB.
+System memory in use after: 125.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3524.
+Total: 2.933800 ms (FindLiveObjects: 0.239300 ms CreateObjectMapping: 0.154600 ms MarkObjects: 2.460300 ms  DeleteObjects: 0.078200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014434 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.618 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1619ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1356ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (523ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (456ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.5 MB.
+System memory in use after: 125.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3527.
+Total: 9.129900 ms (FindLiveObjects: 1.540100 ms CreateObjectMapping: 0.412700 ms MarkObjects: 7.087800 ms  DeleteObjects: 0.087900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012070 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1256ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1033ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (437ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.5 MB.
+System memory in use after: 125.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3529.
+Total: 4.760300 ms (FindLiveObjects: 0.437400 ms CreateObjectMapping: 0.266800 ms MarkObjects: 3.955200 ms  DeleteObjects: 0.099000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 790.608767 seconds.
+  path: Assets/Scenes 1/MainMenu.unity
+  artifactKey: Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/MainMenu.unity using Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a036585ca2d5f0c7efc8167aabf42b19') in 0.029005 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008665 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.202 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1203ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1013ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (413ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.5 MB.
+System memory in use after: 125.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3531.
+Total: 3.533400 ms (FindLiveObjects: 0.404700 ms CreateObjectMapping: 0.227200 ms MarkObjects: 2.831400 ms  DeleteObjects: 0.069000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102.969043 seconds.
+  path: Assets/Scenes 1/MainMenu.unity
+  artifactKey: Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/MainMenu.unity using Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3948d7e003a4c27ad929b306d892f8') in 0.025606 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008050 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.171 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1171ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (978ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (398ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.5 MB.
+System memory in use after: 125.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3533.
+Total: 2.883000 ms (FindLiveObjects: 0.254600 ms CreateObjectMapping: 0.158200 ms MarkObjects: 2.405800 ms  DeleteObjects: 0.063300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.188625 seconds.
+  path: Assets/Scenes 1/MainMenu.unity
+  artifactKey: Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/MainMenu.unity using Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17740fd7d6860a7d68a9cbac1ef6470c') in 0.020644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.068699 seconds.
+  path: Assets/Scenes 1/CrazyTaxi.unity
+  artifactKey: Guid(9e71d1454fdbaca468551835adadedbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/CrazyTaxi.unity using Guid(9e71d1454fdbaca468551835adadedbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b1201fd0a6860172bdd5e6cf97e491') in 0.003823 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009071 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.237 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1237ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1014ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.5 MB.
+System memory in use after: 125.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3535.
+Total: 3.606200 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.281600 ms MarkObjects: 3.001100 ms  DeleteObjects: 0.074300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009184 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.192 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1193ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1000ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (415ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.5 MB.
+System memory in use after: 125.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3537.
+Total: 2.479100 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.155000 ms MarkObjects: 2.024000 ms  DeleteObjects: 0.054400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114.621724 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/Models/Track add-ons/Materials/50.mat
+  artifactKey: Guid(8844f682e337e2f41b60a4194fd7135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/Models/Track add-ons/Materials/50.mat using Guid(8844f682e337e2f41b60a4194fd7135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cf0d4621fefd52d386c13cbfff8b05') in 0.182379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/Models/Track add-ons/Materials/300.mat
+  artifactKey: Guid(ca1b58b5734e9e44a8a6b0ab9f5e36af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/Models/Track add-ons/Materials/300.mat using Guid(ca1b58b5734e9e44a8a6b0ab9f5e36af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a065c0061000cbefe37947ddbc786f') in 0.034384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/SoftEffects/EditFolder/Accuratist_SEFont_2/Accuratist_se_rep_edit_work.mat
+  artifactKey: Guid(86d9ce9068f830a4581c10c204fe6d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/EditFolder/Accuratist_SEFont_2/Accuratist_se_rep_edit_work.mat using Guid(86d9ce9068f830a4581c10c204fe6d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5fc4c83a17346756d42dcf4352e711') in 0.050953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/Models/Track add-ons/Materials/200.mat
+  artifactKey: Guid(ee906bc471273254e8b42d3e17585de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/Models/Track add-ons/Materials/200.mat using Guid(ee906bc471273254e8b42d3e17585de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7011e7c95fab232c5a5b63894396ee') in 0.031312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/SoftEffects/EditFolder/Accuratist_SEFont_3/Accuratist_se_rep_edit.mat
+  artifactKey: Guid(9c6d8ffffc109e14db4a53f8f1321518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/EditFolder/Accuratist_SEFont_3/Accuratist_se_rep_edit.mat using Guid(9c6d8ffffc109e14db4a53f8f1321518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b91f174ebe043ab401810872861c85') in 0.037231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/SoftEffects/EditFolder/Accuratist_SEFont_0/Accuratist_se_rep_edit_work.mat
+  artifactKey: Guid(077d7c5389059ab43b4cf72d875139f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/EditFolder/Accuratist_SEFont_0/Accuratist_se_rep_edit_work.mat using Guid(077d7c5389059ab43b4cf72d875139f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5f5ef5322cf45862326412ce510518') in 0.038406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/Models/Track add-ons/Materials/100.mat
+  artifactKey: Guid(3716924c8addebb4b87c861d8f9e94fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/Models/Track add-ons/Materials/100.mat using Guid(3716924c8addebb4b87c861d8f9e94fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a458358eb46831df36c058ce48200df') in 0.034493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001177 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/Models/Track add-ons/Materials/150.mat
+  artifactKey: Guid(77f0595d42aa58d4a9d764fff3ce0eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/Models/Track add-ons/Materials/150.mat using Guid(77f0595d42aa58d4a9d764fff3ce0eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fc4b8c2a0cba691775d4f3eecf7fc3') in 0.039880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.224444 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Scenes/UI/Textures/General UI Icons.png
+  artifactKey: Guid(4884d663d49966d43967bf9cd9204fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Scenes/UI/Textures/General UI Icons.png using Guid(4884d663d49966d43967bf9cd9204fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ca199f52c9134ff4ef82afc709cc7a') in 0.128781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/SoftEffects/EditFolder/text_SESprite_1/text_se_rep_edit.png
+  artifactKey: Guid(2c1ca989dfd1d354d84c56508d3afa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/EditFolder/text_SESprite_1/text_se_rep_edit.png using Guid(2c1ca989dfd1d354d84c56508d3afa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba339366014295a29660127ee732a83b') in 0.038333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-Close-Hover.png
+  artifactKey: Guid(e7bb5d05e138a7c4cb5e483bee86a339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-Close-Hover.png using Guid(e7bb5d05e138a7c4cb5e483bee86a339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b36dd41f73bfd076ddc19db748b7d98') in 0.035232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-Logo.png
+  artifactKey: Guid(a6652a57a61bcb248b83f3f875d524c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-Logo.png using Guid(a6652a57a61bcb248b83f3f875d524c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471e1afd6d7cbff04176c387acd130dc') in 0.032325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-Button-Hover.png
+  artifactKey: Guid(8acc2409c9dd6f8429b2635da8629c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-Button-Hover.png using Guid(8acc2409c9dd6f8429b2635da8629c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d88516636c7b90667fef323ca43845') in 0.030801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-Button-Normal.png
+  artifactKey: Guid(9c753ac91ec48634b9b799942e340691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-Button-Normal.png using Guid(9c753ac91ec48634b9b799942e340691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316b12440fc7deb74723a807e420fa2e') in 0.031567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-Close-Normal.png
+  artifactKey: Guid(2a3a11abe6eb7bc439543c0c9186fc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-Close-Normal.png using Guid(2a3a11abe6eb7bc439543c0c9186fc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1b8cb43a7c65bf21b4b97fb94fab9c') in 0.027058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-bkg.png
+  artifactKey: Guid(e6dc4af3f9ab08c41a7b63f5c6dcb3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-bkg.png using Guid(e6dc4af3f9ab08c41a7b63f5c6dcb3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54eb7a55ac622062f3010d1eca9f2378') in 0.032046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Scenes/UI/Textures/Dashboard Icons.png
+  artifactKey: Guid(c55a07a3ced26a04ca8b8be1a457c36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Scenes/UI/Textures/Dashboard Icons.png using Guid(c55a07a3ced26a04ca8b8be1a457c36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fff59b481a37b4087186afa3e02b11') in 0.100453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-Close-Hover.png
+  artifactKey: Guid(bf42a4f6f38d68447bf6f79d232c8f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-Close-Hover.png using Guid(bf42a4f6f38d68447bf6f79d232c8f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedc6223a0a73962673d1066c1d11d2f') in 0.030954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-Close-Normal.png
+  artifactKey: Guid(cfc20002c758ed3438fa212d6c58626b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-Close-Normal.png using Guid(cfc20002c758ed3438fa212d6c58626b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88809823f12d8d2a5af408392e0e6fa6') in 0.032959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Plate.png
+  artifactKey: Guid(639d0522ed77b3845913fcd108cbebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Plate.png using Guid(639d0522ed77b3845913fcd108cbebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a23e2b82844462d2f0452d2a26861c') in 0.038331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Logo.png
+  artifactKey: Guid(6b8831e330b84654382a0ca91e9e8348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Logo.png using Guid(6b8831e330b84654382a0ca91e9e8348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27bd16e5d9967a1f668326165cf11fa') in 0.032606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Close-Normal.png
+  artifactKey: Guid(29c0ee91be57d884d82e0c4583b8e805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Close-Normal.png using Guid(29c0ee91be57d884d82e0c4583b8e805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84bf0c2a512647803612e32c1e91a7d') in 0.035899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-Button-Normal.png
+  artifactKey: Guid(83fd3eda17391d34ebbf177791dcc3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-Button-Normal.png using Guid(83fd3eda17391d34ebbf177791dcc3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65332ee05bd576699bcc2320939340af') in 0.033971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Items.png
+  artifactKey: Guid(3c29d3ffd5b2d9e46be26e40b66e0fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Items.png using Guid(3c29d3ffd5b2d9e46be26e40b66e0fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fbb9ff1a7cf251ef21b00003a26c65') in 0.037000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-Logo.png
+  artifactKey: Guid(569de3f360df1c04fb58369eb673b65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-Logo.png using Guid(569de3f360df1c04fb58369eb673b65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ce18403072c9d46407af6d86b6204f') in 0.032673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-bkg.png
+  artifactKey: Guid(fc3c0defe889e53429e8d6eef1808253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-bkg.png using Guid(fc3c0defe889e53429e8d6eef1808253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93cf16e1e4809ddab8b4f02265a15e8d') in 0.036665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-Button-Hover.png
+  artifactKey: Guid(0aedddf0769f3cb4f9bf49b7ca8ec83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-Button-Hover.png using Guid(0aedddf0769f3cb4f9bf49b7ca8ec83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106357c6e6aa2effe991b88593df61d7') in 0.027637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Close-Hover.png
+  artifactKey: Guid(e99971c72060d3e47925d907d4f8e498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Close-Hover.png using Guid(e99971c72060d3e47925d907d4f8e498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb8575eeb1e5a1fe6da6e6d5591a98f') in 0.030590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-Plate.png
+  artifactKey: Guid(5f23ab491328666469cc82b60756b9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo7/Text-Effect-No7-Plate.png using Guid(5f23ab491328666469cc82b60756b9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b38ced73585fc2016c0ede276778bef') in 0.028460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-Plate.png
+  artifactKey: Guid(9887c11e574c4654d973a7aa54944fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo8/Text-Effect-No8-Plate.png using Guid(9887c11e574c4654d973a7aa54944fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ff85932d37ac9a224d2feeeceddd76') in 0.032305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.956414 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Button-Hover.png
+  artifactKey: Guid(71fe05b182c81d241b6ac8f3006d12e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Button-Hover.png using Guid(71fe05b182c81d241b6ac8f3006d12e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e0cec6ee137a08b48b6de5fb1f11a8') in 0.026413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-Close-Normal.png
+  artifactKey: Guid(f2c8844e95d1ee34d9a48fbfcd5e854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-Close-Normal.png using Guid(f2c8844e95d1ee34d9a48fbfcd5e854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c21e73c21dc01a2410222f6a6a04fb') in 0.030849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-Button-Hover.png
+  artifactKey: Guid(21d0c6e36a25ab34d9459bc91eeec7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-Button-Hover.png using Guid(21d0c6e36a25ab34d9459bc91eeec7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1171317ff8a85a2c44900744c5e338b6') in 0.028240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-Plate.png
+  artifactKey: Guid(20e510aef812a604f89c6b2dcabf0efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-Plate.png using Guid(20e510aef812a604f89c6b2dcabf0efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb02ef4abc61d2d6d0995f9043d8492') in 0.033120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/SoftEffects/Examples/ExamplePSD/Text Effect No3 Unity.psd
+  artifactKey: Guid(f30b3162958879f439943a884ce9b15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/ExamplePSD/Text Effect No3 Unity.psd using Guid(f30b3162958879f439943a884ce9b15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fa76f1285975c0a04405d61e167988') in 0.056513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/SoftEffects/Examples/ExamplePSD/Text Effect No7 Unity.psd
+  artifactKey: Guid(5ac62cdafbc83144b8b5fa4c7dda81b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/ExamplePSD/Text Effect No7 Unity.psd using Guid(5ac62cdafbc83144b8b5fa4c7dda81b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2017cd927bba009856975258a985e1') in 0.036087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo4/Text-Effect-No4-Logo.png
+  artifactKey: Guid(08786f59f9b6e844b9feb7f1dc03073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo4/Text-Effect-No4-Logo.png using Guid(08786f59f9b6e844b9feb7f1dc03073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd99f3b3c8d07ba934520869f42b1975') in 0.034292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/SoftEffects/EditFolder/Cartwheel_SEFont_4/Cartwheel_se_rep_edit.png
+  artifactKey: Guid(c831e350a316d4c458ef5036bf6a4b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/EditFolder/Cartwheel_SEFont_4/Cartwheel_se_rep_edit.png using Guid(c831e350a316d4c458ef5036bf6a4b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5168be9e276979d1ad123d2af5020ec') in 0.072780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/SoftEffects/Sprites/Utils/32x32(20x20).png
+  artifactKey: Guid(4f9abbde736657347b8b78b346345284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Sprites/Utils/32x32(20x20).png using Guid(4f9abbde736657347b8b78b346345284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48dedb9cb5ca6d2b1d802677e7c487c') in 0.030427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/SoftEffects/Sprites/Utils/32x32(16x16).png
+  artifactKey: Guid(2c4d83b8ed85f02409bdeade3f6ebdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Sprites/Utils/32x32(16x16).png using Guid(2c4d83b8ed85f02409bdeade3f6ebdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd1eed235deb01035725918a8e49757') in 0.028950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/SoftEffects/Sprites/a.psd
+  artifactKey: Guid(d41460ce2fca1544e828fb6337d2f03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Sprites/a.psd using Guid(d41460ce2fca1544e828fb6337d2f03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec1c46cda88731df50c92dbb5024991') in 0.031653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-bkg.png
+  artifactKey: Guid(809217583b1a421418881abf6bce9449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-bkg.png using Guid(809217583b1a421418881abf6bce9449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef379690a90af1ce0e1f7cb1ae3c8ee') in 0.031004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/SoftEffects/Examples/ExamplePSD/Text Effect No6 Unity.psd
+  artifactKey: Guid(ed12351859fd60a4797860f9fbc725c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/ExamplePSD/Text Effect No6 Unity.psd using Guid(ed12351859fd60a4797860f9fbc725c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a467558fc8cee38e7accbe6abab95b') in 0.028268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo4/Text-Effect-No4-Plate.png
+  artifactKey: Guid(f745fcb77453d514b8dceb061a1e39a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo4/Text-Effect-No4-Plate.png using Guid(f745fcb77453d514b8dceb061a1e39a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa295ed6813c89d148157ddf28e27a16') in 0.032429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/UI Widgets/Hard 1px Rounded Background.png
+  artifactKey: Guid(3ddde8663e0864a4c9713f395288f8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/UI Widgets/Hard 1px Rounded Background.png using Guid(3ddde8663e0864a4c9713f395288f8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81a76f657876f5dc6afb46591362b50') in 0.029318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Button-Normal.png
+  artifactKey: Guid(e4fe676ecab2eea49871c6007794726d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-Button-Normal.png using Guid(e4fe676ecab2eea49871c6007794726d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db15f50a25ae5476124869fd183943b') in 0.028166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/UI Widgets/Hard 2px Rounded Background.png
+  artifactKey: Guid(2329d5687d8354d49b63e6b41ea08c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/UI Widgets/Hard 2px Rounded Background.png using Guid(2329d5687d8354d49b63e6b41ea08c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0f6e0bcbc1f3bbaba7c313d5f869e0') in 0.030905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-bkg.png
+  artifactKey: Guid(3e4b307dac2a06f479eb38ace20201b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo6/Text-Effect-No6-bkg.png using Guid(3e4b307dac2a06f479eb38ace20201b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c782e61458a589fa6dcdcd4b5131b5ac') in 0.032471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo4/Text Effect No4bkg.png
+  artifactKey: Guid(770129532ab3b094cb201dbe6a0ef127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo4/Text Effect No4bkg.png using Guid(770129532ab3b094cb201dbe6a0ef127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70272660ba08383a37471912ac8dbaf0') in 0.028888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/SoftEffects/Examples/ExamplePSD/Text Effect No5 Unity.psd
+  artifactKey: Guid(76beaafe360a01849a8dda04d9d5ed90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/ExamplePSD/Text Effect No5 Unity.psd using Guid(76beaafe360a01849a8dda04d9d5ed90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650531d929f09962fea8455dbcb4fdfa') in 0.032114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-Plate.png
+  artifactKey: Guid(58eefb3de4bb80543bb92c29f8822667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-Plate.png using Guid(58eefb3de4bb80543bb92c29f8822667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b44acfcdb323203b65b0b9789af8fa2') in 0.030135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-Logo.png
+  artifactKey: Guid(363e66e2e32df5f43891584fe65a06a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-Logo.png using Guid(363e66e2e32df5f43891584fe65a06a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52fa2eb621c5a5d64ec64b07efa18c4') in 0.031983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/UI Widgets/Hard Squared Background.png
+  artifactKey: Guid(a7f7e1423861f6148983649fc4d08d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/UI Widgets/Hard Squared Background.png using Guid(a7f7e1423861f6148983649fc4d08d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2156002e31477f66a06ead6a65994db6') in 0.027968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo1/Text-Effect-No1-Plate.png
+  artifactKey: Guid(0b9834084abe38244b893ff4417f777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo1/Text-Effect-No1-Plate.png using Guid(0b9834084abe38244b893ff4417f777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3023dc08e15ecb8e2244b8f095355107') in 0.033756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/SoftEffects/Examples/ExamplePSD/Text Effect No2 Unity.psd
+  artifactKey: Guid(6ecaeb2be9a8c7b4986d7ec94e731b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/ExamplePSD/Text Effect No2 Unity.psd using Guid(6ecaeb2be9a8c7b4986d7ec94e731b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96791d1abc3259b217bd951014d8e7b') in 0.031643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo3/Text-Effect-No3-bkg.png
+  artifactKey: Guid(37a512c72e21c1a42a6fe4ca92fd357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo3/Text-Effect-No3-bkg.png using Guid(37a512c72e21c1a42a6fe4ca92fd357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5161c0a51370d05b09fc385c99978d') in 0.034749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/SoftEffects/Sprites/text.png
+  artifactKey: Guid(d3b7a8dcbe0367745bf07d5fffbaa7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Sprites/text.png using Guid(d3b7a8dcbe0367745bf07d5fffbaa7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1beeb24157faabb9a671d42935f5557') in 0.031420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/UI Widgets/Hard 1px Rounded Border.png
+  artifactKey: Guid(8db539a2dc90f4f4da317a3052a71c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/UI Widgets/Hard 1px Rounded Border.png using Guid(8db539a2dc90f4f4da317a3052a71c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0170f8a2e068aa234394e22ddc1951') in 0.030338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/UI Widgets/Hard 2px Rounded Border.png
+  artifactKey: Guid(7205066c04d357c4683b5edc772506fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/UI Widgets/Hard 2px Rounded Border.png using Guid(7205066c04d357c4683b5edc772506fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a4bdf1fb822e7fcda15e67c0f6d939') in 0.028130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/SoftEffects/Examples/ExamplePSD/Text Effect No4 Unity.psd
+  artifactKey: Guid(90d7fb9ee539b7a41a872e0c69e75777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/ExamplePSD/Text Effect No4 Unity.psd using Guid(90d7fb9ee539b7a41a872e0c69e75777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0df1f9ac5cd5f61502845aaf2147e6') in 0.029225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/SoftEffects/Sprites/Game Background 3.png
+  artifactKey: Guid(2e4537b77d23e204abf7c31cd7c48fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Sprites/Game Background 3.png using Guid(2e4537b77d23e204abf7c31cd7c48fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f6548a157016daf598e55b41f20d83') in 0.050780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-Close-Hover.png
+  artifactKey: Guid(87934dec43ee347408fd4010af3ffa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-Close-Hover.png using Guid(87934dec43ee347408fd4010af3ffa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba292ed275ac122aba57656bce51c3c0') in 0.023524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-Logo.png
+  artifactKey: Guid(00d081899dc01cf4c96907cb1ea2e8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-Logo.png using Guid(00d081899dc01cf4c96907cb1ea2e8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61152ef41f250f9fe1c08cc14fd795a') in 0.031276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/UI Widgets/Soft 1px Line.png
+  artifactKey: Guid(213dd8ac62dcba84d8032896e19ff0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Sample Assets/Art/UI Widgets/Soft 1px Line.png using Guid(213dd8ac62dcba84d8032896e19ff0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac11c300eefa41293f5462289bc425a') in 0.024416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/SoftEffects/EditFolder/calibrib_SEFont_2/calibrib_se_rep_edit.png
+  artifactKey: Guid(2849e26892fce9a449ba579cf1c3c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/EditFolder/calibrib_SEFont_2/calibrib_se_rep_edit.png using Guid(2849e26892fce9a449ba579cf1c3c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322f84bbb48dae97e97b6348b1f8bdce') in 0.039166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/SoftEffects/Examples/ExamplePSD/Text Effect No1 Unity.psd
+  artifactKey: Guid(d3b3d7a168b2dac4cbcfeb2349e9db4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/ExamplePSD/Text Effect No1 Unity.psd using Guid(d3b3d7a168b2dac4cbcfeb2349e9db4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ecba19ef1e5041746fc45f01a923df') in 0.034252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/SoftEffects/EditFolder/Accuratist_SEFont_3/Accuratist_se_rep_edit.png
+  artifactKey: Guid(bf1de3e3619e3eb4d813f81d96839023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/EditFolder/Accuratist_SEFont_3/Accuratist_se_rep_edit.png using Guid(bf1de3e3619e3eb4d813f81d96839023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d78a85e8d7c4bb3f98019d499991b1') in 0.030668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-Button-Normal.png
+  artifactKey: Guid(3db16922c26a7f4469906f6c959b07c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-Button-Normal.png using Guid(3db16922c26a7f4469906f6c959b07c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b858ed2d11fd82c5cb4bb432d60966') in 0.025069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-bkg.png
+  artifactKey: Guid(d3fd5343b3c90b34997ea740c0197db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-bkg.png using Guid(d3fd5343b3c90b34997ea740c0197db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8d5fd918c3d6239d997e5d5151b40d') in 0.033688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-Close-Hover.png
+  artifactKey: Guid(ea17f2ba752b3f543ad1ccc63a832047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-Close-Hover.png using Guid(ea17f2ba752b3f543ad1ccc63a832047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b05bc51498be0e763636eb01c1d4e5') in 0.027170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Scenes/UI/Textures/Needle.png
+  artifactKey: Guid(961d2162d11fa324abe108e5ea6db526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Scenes/UI/Textures/Needle.png using Guid(961d2162d11fa324abe108e5ea6db526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce384b2f7b49adfa2835102d628790cc') in 0.026601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/SoftEffects/Sprites/Bkg.png
+  artifactKey: Guid(cd13b47a0a74e6c459a3db9b19ac0602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Sprites/Bkg.png using Guid(cd13b47a0a74e6c459a3db9b19ac0602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d82a181f06cdfe1c2e6d50ee8923bd') in 0.032392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-Close-Normal.png
+  artifactKey: Guid(ed5bf2fd116acdc428d8cabe908dd8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-Close-Normal.png using Guid(ed5bf2fd116acdc428d8cabe908dd8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd6e06e62eac279fd59499cbd79c3e3') in 0.029614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-Button-Hover.png
+  artifactKey: Guid(23c8d33bb5a158048aa81223a87c7708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo2/Text-Effect-No2-Button-Hover.png using Guid(23c8d33bb5a158048aa81223a87c7708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dcb904718cafaf4459806d8c0fc1a25') in 0.033495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-Button-Normal.png
+  artifactKey: Guid(61334a0acd580e3458c16b640aa4e4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoftEffects/Examples/PNG/TextEffectNo5/Text-Effect-No5-Button-Normal.png using Guid(61334a0acd580e3458c16b640aa4e4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e57313bb7eb64ab14ec3428a48fac18') in 0.026682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Imported Assets/Vehicle Physics Pro/Scenes/UI/Textures/Help Figures.png
+  artifactKey: Guid(3345e98c5f0dad6419767391189ca1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Vehicle Physics Pro/Scenes/UI/Textures/Help Figures.png using Guid(3345e98c5f0dad6419767391189ca1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d8ab869de5698887db10831f677175') in 0.026919 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009472 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.331 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1332ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1119ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (421ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.3 MB.
+System memory in use after: 241.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4638.
+Total: 3.022900 ms (FindLiveObjects: 0.369700 ms CreateObjectMapping: 0.171800 ms MarkObjects: 2.421400 ms  DeleteObjects: 0.058200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 228.066212 seconds.
+  path: Assets/Scenes 1/MainMenu.unity
+  artifactKey: Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/MainMenu.unity using Guid(e75f507772b98a0428f0c86046dac597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20eeaa5f32bd595a252425582df09159') in 0.024573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.373337 seconds.
+  path: Assets/Scenes 1/CrazyTaxi.unity
+  artifactKey: Guid(9e71d1454fdbaca468551835adadedbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/CrazyTaxi.unity using Guid(9e71d1454fdbaca468551835adadedbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a242ee439239268697a6132132d3eb') in 0.003566 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014157 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.621 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1622ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1377ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (545ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (335ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.5 MB.
+System memory in use after: 238.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4640.
+Total: 5.022600 ms (FindLiveObjects: 1.104100 ms CreateObjectMapping: 0.402900 ms MarkObjects: 3.410600 ms  DeleteObjects: 0.103400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008840 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.251 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1252ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1042ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (438ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.5 MB.
+System memory in use after: 238.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4642.
+Total: 3.780100 ms (FindLiveObjects: 0.349500 ms CreateObjectMapping: 0.172400 ms MarkObjects: 3.199300 ms  DeleteObjects: 0.057600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013036 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.554 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1554ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1288ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (515ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.6 MB.
+System memory in use after: 238.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4644.
+Total: 4.423200 ms (FindLiveObjects: 0.375400 ms CreateObjectMapping: 0.209900 ms MarkObjects: 3.743900 ms  DeleteObjects: 0.092000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 689.560335 seconds.
+  path: Assets/Quiet City Ambience Free Sound Effects.mp3
+  artifactKey: Guid(3ec4db3bd62736b488409a5f7fbcbc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quiet City Ambience Free Sound Effects.mp3 using Guid(3ec4db3bd62736b488409a5f7fbcbc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.AudioClipInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+ -> (artifact id: 'd8e7c6ad974dc30a11cefeac5c1ce00a') in 0.062173 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009126 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.515 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1515ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1287ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (613ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.7 MB.
+System memory in use after: 238.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4649.
+Total: 3.901300 ms (FindLiveObjects: 0.618500 ms CreateObjectMapping: 0.219600 ms MarkObjects: 2.989900 ms  DeleteObjects: 0.071000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012814 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.420 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1420ms)
+		BeginReloadAssembly (303ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1028ms)
+			LoadAssemblies (227ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.7 MB.
+System memory in use after: 238.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4651.
+Total: 6.682700 ms (FindLiveObjects: 0.316900 ms CreateObjectMapping: 0.196200 ms MarkObjects: 6.030100 ms  DeleteObjects: 0.138100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010239 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jonat\OneDrive\Desktop\Unity projects\The Crazy Taxi\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.612 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1612ms)
+		BeginReloadAssembly (388ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1104ms)
+			LoadAssemblies (324ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (442ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.7 MB.
+System memory in use after: 239.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4653.
+Total: 4.020100 ms (FindLiveObjects: 0.358100 ms CreateObjectMapping: 0.173300 ms MarkObjects: 3.416600 ms  DeleteObjects: 0.070800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
